@@ -1,0 +1,16 @@
+#include <stdio.h>
+{
+
+int main() {
+    int integerNumber;
+    float floatNumber;
+
+    // Read the integer and float numbers
+    scanf("%d %f", &integerNumber, &floatNumber);
+
+    // Display the numbers
+    printf("%d\n", integerNumber);
+    printf("%.2f\n", floatNumber);
+
+    return 0;
+    }
